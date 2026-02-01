@@ -47,12 +47,12 @@ const HeroSection = ({ className }: HeroSectionProps) => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="#projects" className="flex items-center">
-              <Button size="lg" className="w-full sm:w-auto text-base px-8 h-12 group">
+            <Button size="lg" className="w-full sm:w-auto text-base px-8 h-12 group">
+              <a href="#projects" className="flex items-center">
                 Unsere Projekte
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-            </a>
+              </a>
+            </Button>
             <Button size="lg" variant="outline" className="w-full sm:w-auto text-base px-8 h-12" asChild>
               <a href="https://github.com/RostSoftware" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 w-5 h-5" />
