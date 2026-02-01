@@ -122,7 +122,7 @@ const Hero3 = ({
             )}
           </div>
         </div>
-        <div className="flex">
+        <div className="hidden lg:flex">
           <img
             // src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
             src="https://raw.githubusercontent.com/RostSoftware/nostr-website/refs/heads/main/public/nostr.svg"
