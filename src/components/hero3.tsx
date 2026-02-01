@@ -31,20 +31,20 @@ interface Hero3Props {
 }
 
 const Hero3 = ({
-  heading = "Blocks built with Shadcn & Tailwind",
-  description = "Finely crafted components built with React, Tailwind and Shadcn UI. Developers can copy and paste these blocks directly into their project.",
+  heading = "Nostr Native Apps & Open Source Entwicklung",
+  description = "Wir entwickeln und hosten Open-Source-Software für das dezentrale Web. Spezialisiert auf Nostr und zukunftsweisende Protokolle.",
   buttons = {
     primary: {
-      text: "Sign Up",
-      url: "https://www.shadcnblocks.com",
+      text: "Projekte",
+      url: "#projects",
     },
     secondary: {
-      text: "Get Started",
-      url: "https://www.shadcnblocks.com",
+      text: "Kontaktiere uns",
+      url: "#contact",
     },
   },
   reviews = {
-    count: 200,
+    count: 20,
     rating: 5.0,
     avatars: [
       {
@@ -102,7 +102,7 @@ const Hero3 = ({
                 </span>
               </div>
               <p className="text-left font-medium text-muted-foreground">
-                from {reviews.count}+ reviews
+                von {reviews.count}+ Bewertungen
               </p>
             </div>
           </div>
