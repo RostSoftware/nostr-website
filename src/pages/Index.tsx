@@ -1,12 +1,12 @@
 import { useSeoMeta } from '@unhead/react';
 import { Header } from '@/components/Header';
-import { HeroSection } from '@/components/HeroSection';
+// import { HeroSection } from '@/components/HeroSection';
 import { ServicesSection } from '@/components/ServicesSection';
 import { ProjectsSection } from '@/components/ProjectsSection';
 import { AboutSection } from '@/components/AboutSection';
 import { ContactSection } from '@/components/ContactSection';
 import { FooterSection } from '@/components/FooterSection';
-// import { Hero3 } from '@/components/hero3';
+import { Hero3 } from '@/components/hero3';
 
 const Index = () => {
   useSeoMeta({
@@ -18,8 +18,8 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Header />
       <main>
-        <HeroSection />
-        {/* <Hero3 /> */}
+        {/* <HeroSection /> */}
+        <Hero3 />
         <section id="services">
           <ServicesSection />
         </section>

@@ -124,9 +124,10 @@ const Hero3 = ({
         </div>
         <div className="flex">
           <img
-            src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
+            // src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
+            src="/nostr.svg"
             alt="placeholder hero"
-            className="max-h-[600px] w-full rounded-md object-cover lg:max-h-[800px]"
+            className="max-h-[600px] w-full rounded-md lg:max-h-[800px]"
           />
         </div>
       </div>
