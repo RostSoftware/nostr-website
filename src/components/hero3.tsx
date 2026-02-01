@@ -125,7 +125,7 @@ const Hero3 = ({
         <div className="flex">
           <img
             // src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
-            src="/nostr.svg"
+            src="https://raw.githubusercontent.com/RostSoftware/nostr-website/refs/heads/main/public/nostr.svg"
             alt="placeholder hero"
             className="max-h-[600px] w-full rounded-md lg:max-h-[800px]"
           />
