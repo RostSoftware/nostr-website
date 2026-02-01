@@ -34,18 +34,18 @@ const FooterSection = ({ className }: FooterSectionProps) => {
               <h4 className="font-semibold mb-4">Projekte</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
-                  <a href="https://ditto.pub" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-                    Ditto
+                  <a href="https://layer.systems" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                    LAYER.systems
                   </a>
                 </li>
                 <li>
-                  <a href="https://nostrify.dev" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-                    Nostrify
+                  <a href="https://lumina.rocks" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                    LUMINA.rocks
                   </a>
                 </li>
                 <li>
-                  <a href="https://soapbox.pub" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-                    Soapbox
+                  <a href="https://zelo.news" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                    zelo.news
                   </a>
                 </li>
               </ul>
