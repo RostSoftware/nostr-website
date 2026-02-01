@@ -52,7 +52,7 @@ const HeroSection = ({ className }: HeroSectionProps) => {
               <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
             </Button>
             <Button size="lg" variant="outline" className="w-full sm:w-auto text-base px-8 h-12" asChild>
-              <a href="https://github.com/rostlegende" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/RostSoftware" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 w-5 h-5" />
                 GitHub
               </a>

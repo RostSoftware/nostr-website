@@ -57,7 +57,7 @@ const ContactSection = ({ className }: ContactSectionProps) => {
               </CardHeader>
               <CardContent>
                 <Button variant="outline" className="w-full group/btn" asChild>
-                  <a href="https://njump.me/npub1q3sle0kvfsehgsuexttt3ugjd8xdklxfwwkh559wxckmzddywnws6cd26p" target="_blank" rel="noopener noreferrer">
+                  <a href="https://njump.me/npub1rstsf24dwmhg0dsnaxnf6lafh5qxqvz33frja920gfg6tsmewwfszp7myh" target="_blank" rel="noopener noreferrer">
                     Via Nostr kontaktieren
                     <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover/btn:translate-x-1" />
                   </a>

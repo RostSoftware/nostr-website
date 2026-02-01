@@ -65,7 +65,7 @@ const Header = ({ className }: HeaderProps) => {
             </Button>
 
             <Button variant="ghost" size="icon" className="w-9 h-9 hidden sm:flex" asChild>
-              <a href="https://github.com/rostlegende" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/RostSoftware" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="w-5 h-5" />
               </a>
             </Button>
@@ -98,7 +98,7 @@ const Header = ({ className }: HeaderProps) => {
                 </a>
               ))}
               <a
-                href="https://github.com/rostlegende"
+                href="https://github.com/RostSoftware"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-3 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors flex items-center gap-2"

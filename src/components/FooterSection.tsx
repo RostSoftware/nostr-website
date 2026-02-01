@@ -55,7 +55,7 @@ const FooterSection = ({ className }: FooterSectionProps) => {
               <h4 className="font-semibold mb-4">Ressourcen</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
-                  <a href="https://github.com/rostlegende" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  <a href="https://github.com/RostSoftware" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                     GitHub
                   </a>
                 </li>
@@ -77,9 +77,9 @@ const FooterSection = ({ className }: FooterSectionProps) => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/rostlegende" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors flex items-center gap-2">
+                  <a href="https://github.com/RostSoftware" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors flex items-center gap-2">
                     <Github className="w-4 h-4" />
-                    @rostlegende
+                    @RostSoftware
                   </a>
                 </li>
               </ul>
