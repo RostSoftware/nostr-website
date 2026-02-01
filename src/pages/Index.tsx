@@ -1,21 +1,35 @@
 import { useSeoMeta } from '@unhead/react';
+import { Header } from '@/components/Header';
+import { HeroSection } from '@/components/HeroSection';
+import { ServicesSection } from '@/components/ServicesSection';
+import { ProjectsSection } from '@/components/ProjectsSection';
+import { AboutSection } from '@/components/AboutSection';
+import { ContactSection } from '@/components/ContactSection';
+import { FooterSection } from '@/components/FooterSection';
 
 const Index = () => {
   useSeoMeta({
-    title: 'Welcome to Your Blank App',
-    description: 'A modern Nostr client application built with React, TailwindCSS, and Nostrify.',
+    title: 'Rost Software & Media | Open Source Software für Nostr',
+    description: 'Wir entwickeln und hosten Open-Source-Software für das dezentrale Web. Spezialisiert auf Nostr und zukunftsweisende Protokolle.',
   });
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100">
-          Welcome to Your Blank App
-        </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-400">
-          Start building your amazing project here!
-        </p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main>
+        <HeroSection />
+        <section id="services">
+          <ServicesSection />
+        </section>
+        <section id="projects">
+          <ProjectsSection />
+        </section>
+        <section id="about">
+          <AboutSection />
+        </section>
+        <ContactSection />
+      </main>
+      <FooterSection />
     </div>
   );
 };
