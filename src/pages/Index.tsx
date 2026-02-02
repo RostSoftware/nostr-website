@@ -7,6 +7,7 @@ import { AboutSection } from '@/components/AboutSection';
 import { ContactSection } from '@/components/ContactSection';
 import { FooterSection } from '@/components/FooterSection';
 import { Hero3 } from '@/components/hero3';
+import { CTASection } from '@/components/ui/hero-dithering-card';
 
 const Index = () => {
   useSeoMeta({
@@ -19,7 +20,8 @@ const Index = () => {
       <Header />
       <main>
         {/* <HeroSection /> */}
-        <Hero3 />
+        {/* <Hero3 /> */}
+        <CTASection />
         <section id="services">
           <ServicesSection />
         </section>
