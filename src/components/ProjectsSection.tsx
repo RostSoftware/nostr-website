@@ -105,7 +105,7 @@ const ProjectsSection = ({ className }: ProjectsSectionProps) => {
         {/* View all button */}
         <div className="text-center mt-12">
           <Button variant="outline" size="lg" asChild>
-            <a href="https://github.com/rostlegende" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/RostSoftware" target="_blank" rel="noopener noreferrer">
               <Github className="w-5 h-5 mr-2" />
               Alle Projekte auf GitHub
             </a>
