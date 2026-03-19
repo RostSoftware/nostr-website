@@ -31,7 +31,7 @@ interface Hero3Props {
 }
 
 const Hero3 = ({
-  heading = "Nostr Native Apps & Open Source Entwicklung",
+  heading = "Open Source & Nostr Native Apps Entwicklung",
   description = "Wir entwickeln und hosten Open-Source-Software für das dezentrale Web. Spezialisiert auf Nostr und zukunftsweisende Protokolle.",
   buttons = {
     primary: {
