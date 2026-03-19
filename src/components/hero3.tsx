@@ -127,7 +127,7 @@ const Hero3 = ({
             // src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
             src="https://raw.githubusercontent.com/RostSoftware/nostr-website/refs/heads/main/public/nostr.svg"
             alt="placeholder hero"
-            className="max-h-[600px] w-full rounded-md lg:max-h-[800px]"
+            className="max-h-[600px] w-full rounded-md lg:max-h-[800px] invert dark:invert-0"
           />
         </div>
       </div>
