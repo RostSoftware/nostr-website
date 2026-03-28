@@ -22,6 +22,7 @@ export default {
 			fontFamily: {
 				sans: ["'Space Mono'", 'ui-monospace', 'monospace'],
 				display: ["'Bebas Neue'", 'Impact', 'sans-serif'],
+				body: ["'DM Sans Variable'", 'system-ui', 'sans-serif'],
 				mono: ["'Space Mono'", 'ui-monospace', 'monospace'],
 			},
 			colors: {

@@ -181,15 +181,15 @@
     120deg,
     transparent,
     transparent 20px,
-    hsl(var(--border) / 0.15) 20px,
-    hsl(var(--border) / 0.15) 21px
+    hsl(var(--muted-foreground) / 0.06) 20px,
+    hsl(var(--muted-foreground) / 0.06) 21px
   ),
   repeating-linear-gradient(
     60deg,
     transparent,
     transparent 20px,
-    hsl(var(--border) / 0.15) 20px,
-    hsl(var(--border) / 0.15) 21px
+    hsl(var(--muted-foreground) / 0.06) 20px,
+    hsl(var(--muted-foreground) / 0.06) 21px
   );
 }
 

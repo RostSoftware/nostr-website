@@ -38,7 +38,7 @@ const AboutSection = ({ className }: AboutSectionProps) => {
               <h2 className="font-display text-5xl sm:text-6xl md:text-7xl tracking-wide mb-8">
                 WER WIR SIND
               </h2>
-              <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
+              <div className="space-y-4 text-sm font-body text-muted-foreground leading-relaxed">
                 <p>
                   <span className="text-foreground font-bold">Rost Software & Media</span> ist 
                   ein auf dezentrale Technologien spezialisiertes Unternehmen. Unser Fokus liegt auf 
@@ -58,13 +58,13 @@ const AboutSection = ({ className }: AboutSectionProps) => {
             {/* Values — brutalist stacked blocks */}
             <div className="space-y-4">
               {values.map((value, i) => (
-                <div key={i} className="group border-2 border-foreground p-6 flex gap-5 bg-card brutal-shadow hover:bg-primary/5 transition-colors">
-                  <div className="w-14 h-14 border-2 border-primary flex items-center justify-center shrink-0 group-hover:bg-primary transition-colors">
+                <div key={i} className="group relative border-2 border-foreground p-6 flex gap-5 bg-card brutal-shadow hover:bg-card transition-colors">
+                  <div className="w-14 h-14 border-2 border-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:border-primary transition-colors">
                     <value.icon className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors" />
                   </div>
                   <div>
                     <h3 className="font-display text-2xl tracking-wide mb-1">{value.title.toUpperCase()}</h3>
-                    <p className="text-xs text-muted-foreground leading-relaxed">
+                    <p className="text-sm font-body text-muted-foreground leading-relaxed">
                       {value.description}
                     </p>
                   </div>

@@ -38,7 +38,7 @@ const HeroSection = ({ className }: HeroSectionProps) => {
 
           {/* Subheading — raw mono text */}
           <div className="max-w-2xl mb-12 animate-fade-in-up" style={{ animationDelay: '0.3s', opacity: 0 }}>
-            <p className="text-sm sm:text-base text-muted-foreground leading-relaxed border-l-3 border-primary pl-4">
+            <p className="text-sm sm:text-base font-body text-muted-foreground leading-relaxed border-l-3 border-primary pl-4">
               Wir entwickeln und hosten{" "}
               <span className="text-foreground font-bold">Open-Source-Software</span>{" "}
               für das dezentrale Web. Spezialisiert auf{" "}

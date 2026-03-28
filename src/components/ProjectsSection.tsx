@@ -46,7 +46,7 @@ const ProjectsSection = ({ className }: ProjectsSectionProps) => {
           <h2 className="font-display text-5xl sm:text-6xl md:text-7xl tracking-wide mb-4">
             UNSERE PROJEKTE
           </h2>
-          <p className="text-sm text-muted-foreground max-w-xl leading-relaxed">
+          <p className="text-sm font-body text-muted-foreground max-w-xl leading-relaxed">
             Open-Source-Software, die wir aktiv entwickeln und pflegen.
           </p>
         </div>
@@ -56,7 +56,7 @@ const ProjectsSection = ({ className }: ProjectsSectionProps) => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group border-2 border-foreground p-8 flex flex-col h-full brutal-shadow deco-corners bg-card hover:bg-primary/5 transition-colors"
+              className="group border-2 border-foreground p-8 flex flex-col h-full brutal-shadow deco-corners bg-card hover:bg-card transition-colors"
             >
               {/* Header */}
               <div className="flex items-start justify-between mb-4">
@@ -68,7 +68,7 @@ const ProjectsSection = ({ className }: ProjectsSectionProps) => {
                 </h3>
               </div>
 
-              <p className="text-xs text-muted-foreground leading-relaxed mb-6 flex-1">
+              <p className="text-sm font-body text-muted-foreground leading-relaxed mb-6 flex-1">
                 {project.description}
               </p>
 

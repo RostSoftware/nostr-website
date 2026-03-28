@@ -57,7 +57,7 @@ const ServicesSection = ({ className }: ServicesSectionProps) => {
           <h2 className="font-display text-5xl sm:text-6xl md:text-7xl tracking-wide mb-4">
             WAS WIR TUN
           </h2>
-          <p className="text-sm text-muted-foreground max-w-xl leading-relaxed">
+          <p className="text-sm font-body text-muted-foreground max-w-xl leading-relaxed">
             Spezialisiert auf das Nostr-Ökosystem entwickeln wir Software, 
             die das dezentrale Web voranbringt.
           </p>
@@ -88,7 +88,7 @@ const ServicesSection = ({ className }: ServicesSectionProps) => {
                   <service.icon className="w-5 h-5 group-hover:text-primary-foreground transition-colors" />
                 </div>
                 <h3 className="font-display text-2xl tracking-wide mb-3">{service.title.toUpperCase()}</h3>
-                <p className="text-xs text-muted-foreground leading-relaxed">
+                <p className="text-sm font-body text-muted-foreground leading-relaxed">
                   {service.description}
                 </p>
               </div>

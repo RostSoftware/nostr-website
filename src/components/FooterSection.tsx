@@ -25,7 +25,7 @@ const FooterSection = ({ className }: FooterSectionProps) => {
                 </div>
                 <span className="font-display text-2xl tracking-wider">ROST SOFTWARE</span>
               </div>
-              <p className="text-xs text-muted-foreground leading-relaxed">
+              <p className="text-xs font-body text-muted-foreground leading-relaxed">
                 Open-Source-Software für das dezentrale Web. 
                 Spezialisiert auf Nostr und zukunftsweisende Protokolle.
               </p>
