@@ -9,8 +9,6 @@ interface HeroSectionProps {
 const HeroSection = ({ className }: HeroSectionProps) => {
   return (
     <section className={cn("relative min-h-[90vh] flex items-center overflow-hidden isolate", className)}>
-      {/* Art deco sunburst background */}
-      <div className="absolute inset-0 -z-10 deco-sunburst opacity-60" />
 
       {/* Geometric grid overlay */}
       <div className="absolute inset-0 -z-10 geo-pattern-grid" />
