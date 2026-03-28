@@ -1,7 +1,6 @@
 import { ArrowRight, Mail, MessageCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 interface ContactSectionProps {
   className?: string;
@@ -11,59 +10,55 @@ const ContactSection = ({ className }: ContactSectionProps) => {
   return (
     <section id="contact" className={cn("py-24", className)}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl">
           {/* Section header */}
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Kontakt aufnehmen
+          <div className="mb-12">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="h-[3px] w-12 bg-primary" />
+              <span className="text-xs font-bold uppercase tracking-[0.3em] text-primary">Kontakt</span>
+            </div>
+            <h2 className="font-display text-5xl sm:text-6xl md:text-7xl tracking-wide mb-4">
+              KONTAKT AUFNEHMEN
             </h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+            <p className="text-sm text-muted-foreground max-w-xl leading-relaxed">
               Interesse an einer Zusammenarbeit oder Fragen zu unseren Projekten? 
               Wir freuen uns auf Ihre Nachricht.
             </p>
           </div>
 
-          {/* Contact cards */}
+          {/* Contact cards — brutalist blocks with deco corners */}
           <div className="grid sm:grid-cols-2 gap-6">
-            <Card className="group hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                  <Mail className="w-6 h-6 text-primary" />
-                </div>
-                <CardTitle>E-Mail</CardTitle>
-                <CardDescription className="text-base">
-                  Für allgemeine Anfragen und Projektanfragen.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <Button variant="outline" className="w-full group/btn" asChild>
-                  <a href="mailto:info@rost.software">
-                    info@rost.software
-                    <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover/btn:translate-x-1" />
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
+            <div className="group border-2 border-foreground p-8 brutal-shadow deco-corners bg-card hover:bg-primary/5 transition-colors">
+              <div className="w-14 h-14 border-2 border-primary flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
+                <Mail className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors" />
+              </div>
+              <h3 className="font-display text-3xl tracking-wide mb-2">E-MAIL</h3>
+              <p className="text-xs text-muted-foreground mb-6 leading-relaxed">
+                Für allgemeine Anfragen und Projektanfragen.
+              </p>
+              <Button variant="outline" className="w-full text-[10px] uppercase tracking-widest font-bold border-2 border-foreground hover:bg-foreground hover:text-background group/btn" asChild>
+                <a href="mailto:info@rost.software">
+                  info@rost.software
+                  <ArrowRight className="w-3 h-3 ml-2 transition-transform group-hover/btn:translate-x-1" />
+                </a>
+              </Button>
+            </div>
 
-            <Card className="group hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                  <MessageCircle className="w-6 h-6 text-primary" />
-                </div>
-                <CardTitle>Nostr</CardTitle>
-                <CardDescription className="text-base">
-                  Erreichen Sie uns direkt über das dezentrale Netzwerk.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <Button variant="outline" className="w-full group/btn" asChild>
-                  <a href="https://njump.me/npub1rstsf24dwmhg0dsnaxnf6lafh5qxqvz33frja920gfg6tsmewwfszp7myh" target="_blank" rel="noopener noreferrer">
-                    Via Nostr kontaktieren
-                    <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover/btn:translate-x-1" />
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
+            <div className="group border-2 border-foreground p-8 brutal-shadow deco-corners bg-card hover:bg-primary/5 transition-colors">
+              <div className="w-14 h-14 border-2 border-primary flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
+                <MessageCircle className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors" />
+              </div>
+              <h3 className="font-display text-3xl tracking-wide mb-2">NOSTR</h3>
+              <p className="text-xs text-muted-foreground mb-6 leading-relaxed">
+                Erreichen Sie uns direkt über das dezentrale Netzwerk.
+              </p>
+              <Button variant="outline" className="w-full text-[10px] uppercase tracking-widest font-bold border-2 border-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary group/btn" asChild>
+                <a href="https://njump.me/npub1rstsf24dwmhg0dsnaxnf6lafh5qxqvz33frja920gfg6tsmewwfszp7myh" target="_blank" rel="noopener noreferrer">
+                  Via Nostr kontaktieren
+                  <ArrowRight className="w-3 h-3 ml-2 transition-transform group-hover/btn:translate-x-1" />
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </div>

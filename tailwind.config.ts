@@ -19,6 +19,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ["'Space Mono'", 'ui-monospace', 'monospace'],
+				display: ["'Bebas Neue'", 'Impact', 'sans-serif'],
+				mono: ["'Space Mono'", 'ui-monospace', 'monospace'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',

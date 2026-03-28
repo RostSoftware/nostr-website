@@ -3,6 +3,11 @@ import { createRoot } from 'react-dom/client';
 // Import polyfills first
 import './lib/polyfills.ts';
 
+// Fonts
+import '@fontsource/bebas-neue';
+import '@fontsource/space-mono/400.css';
+import '@fontsource/space-mono/700.css';
+
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import App from './App.tsx';
 import './index.css';
