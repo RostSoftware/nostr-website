@@ -99,10 +99,10 @@ const FooterSection = ({ className }: FooterSectionProps) => {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
             <p>&copy; {currentYear} Rost Software & Media</p>
             <div className="flex items-center gap-6">
-              <a href="#" className="hover:text-primary transition-colors">
+              <a href="/impressum" className="hover:text-primary transition-colors">
                 Impressum
               </a>
-              <a href="#" className="hover:text-primary transition-colors">
+              <a href="/datenschutz" className="hover:text-primary transition-colors">
                 Datenschutz
               </a>
             </div>
